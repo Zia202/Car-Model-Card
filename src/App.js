@@ -4,6 +4,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Top Navigation Example</h2>
+  
+</div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -26,6 +37,7 @@ function App() {
   <input type="submit" value="Submit">
 </form>
       </header>
+      
     </div>
   );
 }
