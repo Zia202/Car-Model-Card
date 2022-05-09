@@ -22,7 +22,7 @@ import MenuIcon from '@mui/material/MenuItem'
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            MODIFYORIDE
+            Vehicle Arena
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>
